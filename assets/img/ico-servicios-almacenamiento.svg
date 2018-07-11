@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90.665 91.494">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Group_97" data-name="Group 97" transform="translate(1 1)">
+    <path id="Path_422" data-name="Path 422" class="cls-1" d="M45.133.8.8,25.038V90.087H9.708V33.946h70.85V90.087h8.908V25.038Z" transform="translate(-0.8 -0.8)"/>
+    <rect id="Rectangle_183" data-name="Rectangle 183" class="cls-1" width="15.123" height="6.215" transform="translate(36.668 20.923)"/>
+    <line id="Line_8" data-name="Line 8" class="cls-1" x2="70.85" transform="translate(8.908 39.568)"/>
+    <line id="Line_9" data-name="Line 9" class="cls-1" x2="70.85" transform="translate(8.908 46.197)"/>
+    <line id="Line_10" data-name="Line 10" class="cls-1" x2="70.85" transform="translate(8.908 52.827)"/>
+    <path id="Path_423" data-name="Path 423" class="cls-1" d="M39.3,29.5" transform="translate(40.457 29.956)"/>
+    <path id="Path_424" data-name="Path 424" class="cls-1" d="M5.1,29.5" transform="translate(3.808 29.956)"/>
+    <rect id="Rectangle_184" data-name="Rectangle 184" class="cls-1" width="25.688" height="25.688" transform="translate(18.437 63.806)"/>
+    <rect id="Rectangle_185" data-name="Rectangle 185" class="cls-1" width="7.044" height="9.322" transform="translate(27.967 63.806)"/>
+    <rect id="Rectangle_186" data-name="Rectangle 186" class="cls-1" width="25.688" height="25.688" transform="translate(44.333 63.806)"/>
+    <rect id="Rectangle_187" data-name="Rectangle 187" class="cls-1" width="7.044" height="9.322" transform="translate(53.655 63.806)"/>
+  </g>
+</svg>

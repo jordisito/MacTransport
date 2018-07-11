@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.998 86.108">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_94" data-name="Group 94" transform="translate(1 1)">
+    <path id="Path_406" data-name="Path 406" class="cls-1" d="M40.575,25.3h2.693A9.5,9.5,0,0,1,52.8,34.829V58.653H.8V34.83A9.5,9.5,0,0,1,10.329,25.3h2.693" transform="translate(-0.8 25.455)"/>
+    <path id="Path_407" data-name="Path 407" class="cls-1" d="M28.945,51.247H16.515A12.024,12.024,0,0,1,4.5,39.232V18.1A14.412,14.412,0,0,1,19,3.6h7.458a14.412,14.412,0,0,1,14.5,14.5V39.232A12.024,12.024,0,0,1,28.945,51.247Z" transform="translate(3.165 2.201)"/>
+    <path id="Path_408" data-name="Path 408" class="cls-1" d="M4.5,22.144H15.894S28.324,21.315,33.088,9.3l7.872,10.151" transform="translate(3.165 8.309)"/>
+    <path id="Path_409" data-name="Path 409" class="cls-1" d="M4.6,26.051h0a2.832,2.832,0,0,1-2.9-2.9V15.9A2.832,2.832,0,0,1,4.6,13h0a2.832,2.832,0,0,1,2.9,2.9v7.251A2.832,2.832,0,0,1,4.6,26.051Z" transform="translate(0.164 12.274)"/>
+    <path id="Path_410" data-name="Path 410" class="cls-1" d="M25,26.051h0a2.832,2.832,0,0,1-2.9-2.9V15.9A2.832,2.832,0,0,1,25,13h0a2.832,2.832,0,0,1,2.9,2.9v7.251A2.718,2.718,0,0,1,25,26.051Z" transform="translate(22.026 12.274)"/>
+    <path id="Path_411" data-name="Path 411" class="cls-1" d="M1.6,33.946v-14.5C1.6,9.087,10.3.8,20.866.8H30.6C41.168.8,49.869,9.087,49.869,19.445V41.2A4.688,4.688,0,0,1,45.1,45.962H31.639" transform="translate(0.057 -0.8)"/>
+    <path id="Path_412" data-name="Path 412" class="cls-2" d="M20.079,25.215H16.557A1.634,1.634,0,0,1,14.9,23.557h0A1.634,1.634,0,0,1,16.557,21.9h3.522a1.634,1.634,0,0,1,1.657,1.657h0C21.529,24.593,20.908,25.215,20.079,25.215Z" transform="translate(14.31 21.811)"/>
+    <path id="Path_413" data-name="Path 413" class="cls-1" d="M17.265,35.094,24.93,26.6H9.6Z" transform="translate(8.63 26.848)"/>
+    <line id="Line_4" data-name="Line 4" class="cls-1" y1="21.959" transform="translate(25.895 61.942)"/>
+    <line id="Line_5" data-name="Line 5" class="cls-1" x2="8.286" transform="translate(36.668 71.886)"/>
+  </g>
+</svg>
