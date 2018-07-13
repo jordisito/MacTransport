@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
     <title>Mac-Transport</title>
     <link rel="stylesheet" href="assets/css/app.css">
   </head>
@@ -86,12 +87,16 @@
 
                 <div>
                     <span class="Header-contacto-phone">
+                      <a href="tel:+5116238782">
                         <i class="fa fa-phone" aria-hidden="true"></i> 
-                        <span>511 623 8782</span>
+                        <span>511 623 8782 </span>
+                      </a>  
                     </span>
                     <span class="Header-contacto-email">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                      <a href="mailto:contacto@mactransport.com">  
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
                         <span>contacto@mactransport.com</span>
+                      </a>
                     </span>
                 </div>
                 
@@ -115,35 +120,45 @@
             <a href="index.html"><img src="./assets/img/ico-logo-home.svg" alt="logo" class="Header-image"></a>
           </figure>
 
-          <nav class="Header-nav">
-            <ul class="Header-menu  no-bullet">
-              <li class="Header-menu-item">
-                <a class="Header-menu-link" href="nosotros.html">Nosotros</a>
-              </li>
-              <li class="Header-menu-item">
-                <a class="Header-menu-link" href="servicios.html">Servicios</a>
-              </li>
-              <li class="Header-menu-item">
-                <a class="Header-menu-link" href="noticias.html">Noticias</a>
-              </li>
-              <li class="Header-menu-item">
-                <a class="Header-menu-link" href="clientes.html">Clientes</a>
-              </li>
-              <li class="Header-menu-item">
-                <a class="Header-menu-link" href="contacto.html">Contacto</a>
-              </li>
-                <ul class="vertical menu accordion-menu" data-accordion-menu>
-                  <li class="idiomas">
-                    <a href="#">ES</a>
-                    <ul class="menu vertical nested">
-                      <li>
-                        <a href="#">EN</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-            </ul>
-          </nav>
+            <nav class="Header-nav">
+              <ul class="Header-menu  no-bullet  dropdown menu" data-dropdown-menu>
+                <li class="Header-menu-item">
+                  <a class="Header-menu-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="Header-menu-item">
+                  <a class="Header-menu-link" href="servicios.html">Servicios</a>
+                  <ul class="menu">
+                    <li><a href="servicios.html">Carga Aérea y marítima</a></li>
+                    <li><a href="agenciamiento-aduanas.html">Agenciamiento de aduanas</a></li>
+                    <li><a href="carga-peligrosa.html">carga peligrosa</a></li>
+                    <li><a href="almacenamiento.html">almacenamiento</a></li>
+                    <li><a href="transporte-local-nacional.html">transporte local y nacional</a></li>
+                    <li><a href="carga-proyectos.html">carga de proyectos</a></li>
+                    <li><a href="seguros.html">seguros</a></li>
+                  </ul>
+                </li>
+                <li class="Header-menu-item">
+                  <a class="Header-menu-link" href="noticias.html">Noticias</a>
+                </li>
+                <li class="Header-menu-item">
+                  <a class="Header-menu-link" href="clientes.html">Clientes</a>
+                </li>
+                <li class="Header-menu-item">
+                  <a class="Header-menu-link" href="contacto.html">Contacto</a>
+                </li>
+                  <ul class="vertical menu accordion-menu" data-accordion-menu>
+                    <li class="idiomas">
+                      <a href="#">ES</a>
+                      <ul class="menu vertical nested">
+                        <li>
+                          <a href="#">EN</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+              </ul>
+            </nav>
+          
         </header>
 
 
@@ -157,14 +172,18 @@
                     <div class="Header-contacto">
         
                       <div>
-                          <span class="Header-contacto-phone">
-                              <i class="fa fa-phone" aria-hidden="true"></i> 
-                              <span>511 623 8782</span>
-                          </span>
-                          <span class="Header-contacto-email">
-                              <i class="fa fa-envelope" aria-hidden="true"></i>
-                              <span>contacto@mactransport.com</span>
-                          </span>
+                        <span class="Header-contacto-phone">
+                          <a href="tel:+511">
+                            <i class="fa fa-phone" aria-hidden="true"></i> 
+                            <span>511 623 8782 </span>
+                          </a>  
+                        </span>
+                        <span class="Header-contacto-email">
+                          <a href="mailto:contacto@mactransport.com">  
+                          <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <span>contacto@mactransport.com</span>
+                          </a>
+                        </span>
                       </div>
                       
                       <div class="Header-redesSociales">
@@ -188,12 +207,21 @@
                 </figure>
         
                 <nav class="Header-nav">
-                  <ul class="Header-menu  no-bullet">
+                  <ul class="Header-menu  no-bullet dropdown menu" data-dropdown-menu>
                     <li class="Header-menu-item">
                       <a class="Header-menu-link" href="nosotros.html">Nosotros</a>
                     </li>
                     <li class="Header-menu-item">
                       <a class="Header-menu-link" href="servicios.html">Servicios</a>
+                      <ul class="menu">
+                        <li><a class="Header-menu-link" href="servicios.html">Carga Aérea y marítima</a></li>
+                        <li><a href="agenciamiento-aduanas.html">Agenciamiento de aduanas</a></li>
+                        <li><a href="carga-peligrosa.html">carga peligrosa</a></li>
+                        <li><a href="almacenamiento.html">almacenamiento</a></li>
+                        <li><a href="transporte-local-nacional.html">transporte local y nacional</a></li>
+                        <li><a href="carga-proyectos.html">carga de proyectos</a></li>
+                        <li><a href="seguros.html">seguros</a></li>
+                      </ul>
                     </li>
                     <li class="Header-menu-item">
                       <a class="Header-menu-link" href="noticias.html">Noticias</a>
@@ -225,7 +253,7 @@
                       <i class="fa fa-caret-right"></i>
                   </span>
                   <li class="SubNavegacion-item">
-                    <a class="SubNavegacion-link bold" href="inicio.html">inicio</a>
+                    <a class="SubNavegacion-link bold" href="inicio.html">Inicio</a>
                   </li>
                 </ul>
 
@@ -257,8 +285,8 @@
                <img class="reflejo" src="./assets/img/reflejo-nosotros.png" alt="10-reflejo">
            </figure>
            <h2 class="Nosotros-description">
-             En estos 10 años venimos creando soluciones flexibles e innovadoras como
-             <strong>operador logístico</strong>
+             En estos 10 años venimos creando soluciones flexibles e innovadoras para
+             <strong>Nustros Clientes</strong>
            </h2>
        </div>
        
@@ -291,7 +319,7 @@
    
        <section class="Servicios-gallery">
          <div class="Servicios-gallery-item">
-           <img class="Servicios-gallery-img" src="./assets/img/img-servicio-carga-aerea-y-maritima.png" alt="carga aérea y marítima">
+           <img class="Servicios-gallery-img" src="./assets/img/img-servicio-carga-aerea-y-maritima.jpg" alt="carga aérea y marítima">
            <p class="Servicios-gallery-title">carga aérea y marítima</p>
            <!---->
            <div class="item-hover">
@@ -302,7 +330,7 @@
            </div>
          </div>
          <div class="Servicios-gallery-item">
-           <img class="Servicios-gallery-img" src="./assets/img/img-servicio-agenciamiento-de-aduanas.png" alt="agenciamiento de aduanas">
+           <img class="Servicios-gallery-img" src="./assets/img/img-servicio-agenciamiento-aduanas.jpg" alt="agenciamiento de aduanas">
            <p class="Servicios-gallery-title">agenciamiento de aduanas</p>
    
            <div class="item-hover">
@@ -314,7 +342,7 @@
    
          </div>
          <div class="Servicios-gallery-item">
-           <img class="Servicios-gallery-img" src="./assets/img/img-servicio-carga-peligrosa.png" alt="carga peligrosa">
+           <img class="Servicios-gallery-img" src="./assets/img/img-servicio-carga-peligrosa.jpg" alt="carga peligrosa">
            <p class="Servicios-gallery-title">carga peligrosa</p>
    
            <div class="item-hover">
@@ -326,7 +354,7 @@
    
          </div>
          <div class="Servicios-gallery-item">
-           <img class="Servicios-gallery-img" src="./assets/img/img-servicio-almacenamiento.png" alt="almacenamiento">
+           <img class="Servicios-gallery-img" src="./assets/img/img-servicio-almacenamiento.jpg" alt="almacenamiento">
            <p class="Servicios-gallery-title">almacenamiento</p>
    
            <div class="item-hover">
@@ -338,7 +366,7 @@
    
          </div>
          <div class="Servicios-gallery-item">
-           <img class="Servicios-gallery-img" src="./assets/img/img-servicio-seguros.png" alt="seguros">
+           <img class="Servicios-gallery-img" src="./assets/img/img-servicio-seguros.jpg" alt="seguros">
            <p class="Servicios-gallery-title">seguros</p>
    
            <div class="item-hover">
@@ -350,7 +378,7 @@
    
          </div>
          <div class="Servicios-gallery-item">
-           <img class="Servicios-gallery-img" src="./assets/img/img-servicio-transporte-local-y-nacional.png" alt="transporte local y nacional">
+           <img class="Servicios-gallery-img" src="./assets/img/img-servicio-transporte-local-y-nacional.jpg" alt="transporte local y nacional">
            <p class="Servicios-gallery-title">transporte local y nacional</p>
    
            <div class="item-hover">
@@ -379,13 +407,15 @@
      <div class="Clientes">
        <h2 class="Clientes-title">Clientes</h2>
        <figure class="Clientes-figure">
-           <img src="./assets/img/img-cliente-1.png" class="Clientes-img" alt="Tramarsa">
-           <img src="./assets/img/img-cliente-2.png" class="Clientes-img" alt="Soltrak">
-           <img src="./assets/img/img-cliente-3.png" class="Clientes-img" alt="Zinsa">
-           <img src="./assets/img/img-cliente-4.png" class="Clientes-img" alt="Corporacion EW">
-           <img src="./assets/img/img-cliente-5.png" class="Clientes-img" alt="Tambo">
-           <img src="./assets/img/img-cliente-6.png" class="Clientes-img" alt="Cencosud">
-           <img src="./assets/img/img-cliente-7.png" class="Clientes-img" alt="efc">
+           <img src="./assets/img/paginaClientes/tramarsa.jpg" class="Clientes-img" alt="Tramarsa">
+           <img src="./assets/img/paginaClientes/soltrak.jpg" class="Clientes-img" alt="Soltrak">
+           <img src="./assets/img/paginaClientes/zinsa.jpg" class="Clientes-img" alt="Zinsa">
+           <img src="./assets/img/paginaClientes/ew.jpg" class="Clientes-img" alt="Corporacion EW">
+           <img src="./assets/img/paginaClientes/tambo.jpg" class="Clientes-img" alt="Tambo">
+           <img src="./assets/img/paginaClientes/cencosud.jpg" class="Clientes-img" alt="Cencosud">
+           <img src="./assets/img/paginaClientes/efc.jpg" class="Clientes-img" alt="efc">
+           <img src="./assets/img/paginaClientes/pisopak.jpg" class="Clientes-img" alt="pisopak">
+           <img src="./assets/img/paginaClientes/buenaventura.jpg" class="Clientes-img" alt="corporacion buenaventura">
        </figure>
      </div>
    
@@ -457,6 +487,16 @@
    
                    <figcaption class="Sectors-description">Hotelero</figcaption>
                  </figure>
+   
+                 <figure class="Sectors-bienestar">
+   
+                     <div class="container-sector-img">
+                       <img class="Sectors-img" src="./assets/img/img-sector-bienestar.png" alt="Bienestar">
+                     </div>
+     
+                     <figcaption class="Sectors-description">Bienestar</figcaption>
+                 </figure>
+   
            </div>
        </div>
      </div>
@@ -638,10 +678,10 @@
            <div class="Contact-details"> 
    
              <form action="#" class="Contact-form">
-               <input type="text" placeholder="Nombre" class="Contact-form-name">
-               <input type="email" placeholder="Email" class="Contact-form-email">
-               <textarea class="Contact-form-message" rows="5" placeholder="Mensaje"></textarea>
-               <button type="submit" class="button text-right">Leer más</button>
+               <input type="text" class="Contact-form-name" id="nombreContacto" placeholder="Nombre" required>
+               <input type="email" class="Contact-form-email" id="emailContacto" placeholder="Email" required>
+               <textarea class="Contact-form-message" id="mensajeContacto" rows="5" placeholder="Mensaje"></textarea>
+               <button type="submit" class="button text-right" id="btnEnviar">Enviar</button>
              </form>
    
            </div>
@@ -664,13 +704,31 @@
                 </a>
 
                 <span class="Footer-phone">
+                  <a href="tel:+5116238782">
                     <i class="fa fa-phone" aria-hidden="true"></i> 
                     <span>(511) 623 8782</span>
+                  </a>  
                 </span>
                 <span class="Footer-email">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span>contacto@mactransport.com.pe</span> 
+                  <a href="mailto:contacto@mactransport.com.pe">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                      <span>contacto@mactransport.com.pe</span> 
+                  </a>                
                 </span>
+
+                <div class="Header-redesSociales-footer">
+                    <li class="Header-redesSociales-item">
+                      <a href="https://facebook.com/" target="_blank" class="Header-redesSociales-link">
+                        <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                      </a>
+                    </li>
+                    <li class="Header-redesSociales-item">
+                      <a href="https://linkedin.com/" target="_blank" class="Header-redesSociales-link">
+                        <span><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                      </a>
+                    </li>
+                </div>
+
             </div>
           
               <div class="Footer-pages">
@@ -756,5 +814,6 @@
         contenedor.style.opacity = 0;
       } 
     </script>
+
   </body>
 </html>

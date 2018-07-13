@@ -14585,6 +14585,70 @@ window.$ = _jquery2.default;
 
 (0, _jquery2.default)(document).foundation();
 
+// validacion de formulario
+var nombre = document.getElementById('nombreContacto'),
+    email = document.getElementById('emailContacto'),
+    mensaje = document.getElementById('mensajeContacto'),
+    empresa = document.getElementById('empresaContacto'),
+    telefono = document.getElementById('telefonoContacto'),
+    btnEnviar = document.getElementById('btnEnviar');
+
+eventListeners();
+
+function eventListeners() {
+    // desabilito submit
+    document.addEventListener('DOMContentLoaded', inicioApp);
+
+    nombre.addEventListener('blur', validarCampo);
+    email.addEventListener('blur', validarCampo);
+    mensaje.addEventListener('blur', validarCampo);
+    empresa.addEventListener('blur', validarCampo);
+    telefono.addEventListener('blur', validarCampo);
+}
+
+function inicioApp() {
+    btnEnviar.disabled = true;
+}
+
+//validarCampo
+function validarCampo() {
+
+    validarLongitud(this);
+
+    if (this.type === 'email') {
+        validarEmail(this);
+    }
+
+    var errores = document.querySelectorAll('.error');
+
+    if (nombre.value !== '' && email.value !== '' && mensaje.value !== '' && telefono !== '') {
+        if (errores.length === 0) {
+            btnEnviar.disabled = false;
+        }
+    }
+}
+
+function validarLongitud(campo) {
+    if (campo.value.length > 0) {
+        campo.style.border = "thin solid green";
+        campo.classList.remove('error');
+    } else {
+        campo.style.border = "thin solid red";
+        campo.classList.add('error');
+    }
+}
+
+function validarEmail(campo) {
+    var msj = campo.value;
+    if (msj.indexOf('@') !== -1) {
+        campo.style.border = "thin solid green";
+        campo.classList.remove('error');
+    } else {
+        campo.style.border = "thin solid red";
+        campo.classList.add('error');
+    }
+}
+
 /***/ }),
 /* 21 */
 /***/ (function(module, exports, __webpack_require__) {

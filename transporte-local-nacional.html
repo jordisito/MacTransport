@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
     <title>Mac-Transport</title>
     <link rel="stylesheet" href="assets/css/app.css">
   </head>
@@ -86,12 +87,16 @@
 
                 <div>
                     <span class="Header-contacto-phone">
+                      <a href="tel:+5116238782">
                         <i class="fa fa-phone" aria-hidden="true"></i> 
-                        <span>511 623 8782</span>
+                        <span>511 623 8782 </span>
+                      </a>  
                     </span>
                     <span class="Header-contacto-email">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                      <a href="mailto:contacto@mactransport.com">  
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
                         <span>contacto@mactransport.com</span>
+                      </a>
                     </span>
                 </div>
                 
@@ -115,35 +120,45 @@
             <a href="index.html"><img src="./assets/img/ico-logo-home.svg" alt="logo" class="Header-image"></a>
           </figure>
 
-          <nav class="Header-nav">
-            <ul class="Header-menu  no-bullet">
-              <li class="Header-menu-item">
-                <a class="Header-menu-link" href="nosotros.html">Nosotros</a>
-              </li>
-              <li class="Header-menu-item">
-                <a class="Header-menu-link" href="servicios.html">Servicios</a>
-              </li>
-              <li class="Header-menu-item">
-                <a class="Header-menu-link" href="noticias.html">Noticias</a>
-              </li>
-              <li class="Header-menu-item">
-                <a class="Header-menu-link" href="clientes.html">Clientes</a>
-              </li>
-              <li class="Header-menu-item">
-                <a class="Header-menu-link" href="contacto.html">Contacto</a>
-              </li>
-                <ul class="vertical menu accordion-menu" data-accordion-menu>
-                  <li class="idiomas">
-                    <a href="#">ES</a>
-                    <ul class="menu vertical nested">
-                      <li>
-                        <a href="#">EN</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-            </ul>
-          </nav>
+            <nav class="Header-nav">
+              <ul class="Header-menu  no-bullet  dropdown menu" data-dropdown-menu>
+                <li class="Header-menu-item">
+                  <a class="Header-menu-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="Header-menu-item">
+                  <a class="Header-menu-link" href="servicios.html">Servicios</a>
+                  <ul class="menu">
+                    <li><a href="servicios.html">Carga Aérea y marítima</a></li>
+                    <li><a href="agenciamiento-aduanas.html">Agenciamiento de aduanas</a></li>
+                    <li><a href="carga-peligrosa.html">carga peligrosa</a></li>
+                    <li><a href="almacenamiento.html">almacenamiento</a></li>
+                    <li><a href="transporte-local-nacional.html">transporte local y nacional</a></li>
+                    <li><a href="carga-proyectos.html">carga de proyectos</a></li>
+                    <li><a href="seguros.html">seguros</a></li>
+                  </ul>
+                </li>
+                <li class="Header-menu-item">
+                  <a class="Header-menu-link" href="noticias.html">Noticias</a>
+                </li>
+                <li class="Header-menu-item">
+                  <a class="Header-menu-link" href="clientes.html">Clientes</a>
+                </li>
+                <li class="Header-menu-item">
+                  <a class="Header-menu-link" href="contacto.html">Contacto</a>
+                </li>
+                  <ul class="vertical menu accordion-menu" data-accordion-menu>
+                    <li class="idiomas">
+                      <a href="#">ES</a>
+                      <ul class="menu vertical nested">
+                        <li>
+                          <a href="#">EN</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+              </ul>
+            </nav>
+          
         </header>
 
 
@@ -157,14 +172,18 @@
                     <div class="Header-contacto">
         
                       <div>
-                          <span class="Header-contacto-phone">
-                              <i class="fa fa-phone" aria-hidden="true"></i> 
-                              <span>511 623 8782</span>
-                          </span>
-                          <span class="Header-contacto-email">
-                              <i class="fa fa-envelope" aria-hidden="true"></i>
-                              <span>contacto@mactransport.com</span>
-                          </span>
+                        <span class="Header-contacto-phone">
+                          <a href="tel:+511">
+                            <i class="fa fa-phone" aria-hidden="true"></i> 
+                            <span>511 623 8782 </span>
+                          </a>  
+                        </span>
+                        <span class="Header-contacto-email">
+                          <a href="mailto:contacto@mactransport.com">  
+                          <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <span>contacto@mactransport.com</span>
+                          </a>
+                        </span>
                       </div>
                       
                       <div class="Header-redesSociales">
@@ -188,12 +207,21 @@
                 </figure>
         
                 <nav class="Header-nav">
-                  <ul class="Header-menu  no-bullet">
+                  <ul class="Header-menu  no-bullet dropdown menu" data-dropdown-menu>
                     <li class="Header-menu-item">
                       <a class="Header-menu-link" href="nosotros.html">Nosotros</a>
                     </li>
                     <li class="Header-menu-item">
                       <a class="Header-menu-link" href="servicios.html">Servicios</a>
+                      <ul class="menu">
+                        <li><a class="Header-menu-link" href="servicios.html">Carga Aérea y marítima</a></li>
+                        <li><a href="agenciamiento-aduanas.html">Agenciamiento de aduanas</a></li>
+                        <li><a href="carga-peligrosa.html">carga peligrosa</a></li>
+                        <li><a href="almacenamiento.html">almacenamiento</a></li>
+                        <li><a href="transporte-local-nacional.html">transporte local y nacional</a></li>
+                        <li><a href="carga-proyectos.html">carga de proyectos</a></li>
+                        <li><a href="seguros.html">seguros</a></li>
+                      </ul>
                     </li>
                     <li class="Header-menu-item">
                       <a class="Header-menu-link" href="noticias.html">Noticias</a>
@@ -225,7 +253,7 @@
                       <i class="fa fa-caret-right"></i>
                   </span>
                   <li class="SubNavegacion-item">
-                    <a class="SubNavegacion-link bold" href="transporte-local-nacional.html">transporte-local-nacional</a>
+                    <a class="SubNavegacion-link bold" href="transporte-local-nacional.html">Transporte Local y Nacional</a>
                   </li>
                 </ul>
 
@@ -331,13 +359,31 @@
                 </a>
 
                 <span class="Footer-phone">
+                  <a href="tel:+5116238782">
                     <i class="fa fa-phone" aria-hidden="true"></i> 
                     <span>(511) 623 8782</span>
+                  </a>  
                 </span>
                 <span class="Footer-email">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span>contacto@mactransport.com.pe</span> 
+                  <a href="mailto:contacto@mactransport.com.pe">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                      <span>contacto@mactransport.com.pe</span> 
+                  </a>                
                 </span>
+
+                <div class="Header-redesSociales-footer">
+                    <li class="Header-redesSociales-item">
+                      <a href="https://facebook.com/" target="_blank" class="Header-redesSociales-link">
+                        <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                      </a>
+                    </li>
+                    <li class="Header-redesSociales-item">
+                      <a href="https://linkedin.com/" target="_blank" class="Header-redesSociales-link">
+                        <span><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                      </a>
+                    </li>
+                </div>
+
             </div>
           
               <div class="Footer-pages">
@@ -423,5 +469,6 @@
         contenedor.style.opacity = 0;
       } 
     </script>
+
   </body>
 </html>
