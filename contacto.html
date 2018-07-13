@@ -123,7 +123,7 @@
 
             <nav class="Header-nav">
               <ul class="Header-menu  no-bullet  dropdown menu" data-dropdown-menu>
-                <li class="Header-menu-item">
+                <li class="Header-menu-item  is-active">
                   <a class="Header-menu-link" href="nosotros.html">Nosotros</a>
                 </li>
                 <li class="Header-menu-item">
@@ -279,62 +279,78 @@
    <!-- el resto-->
 
    
-   <div class="Contactanos">
-       <div class="container-mapa">
-           <div class="responsive-embed widescreen">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3900.6769202909086!2d-77.0280417!3d-12.1342439!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b7e3bdc97a51%3A0x792c783212905144!2sCalle+las+Acacias+329%2C+Miraflores+15083!5e0!3m2!1ses-419!2spe!4v1529012554642" width="500" height="450" style="border:0" frameborder="0" allowfullscreen></iframe>        
-           </div>
+   <div class="Contact">
    
-           <div class="Escribenos">
-           
-                   <div class="Escribenos-container">
-                           <h2>Escríbenos</h2>
-                           <form action="#" class="Escribenos-form">
-                               <p>
-                                   <input type="text" id="nombreContacto" class="nombre" placeholder="Nombre de contacto" maxlength="20" pattern="[A-Za-z]{3-16}" title="Ingrese minimo 3 caracteres" required>
-                               </p>
-                               <p>
-                                   <input type="text" id="empresaContacto" class="empresa" placeholder="Empresa">
-                               </p>
-                               <p>
-                                   <input type="email" id="emailContacto" class="email" placeholder="Correo electrónico" required>
-                               </p>
-                               <p>
-                                   <input type="tel" id="telefonoContacto" class="telefono" placeholder="Teléfono o celular" pattern="[0-9]{9}" title="Ingrese solo 9 números" required>
-                               </p>
-                               <p>
-                                   <select name="asunto" id="asuntoContacto" class="asunto">
-                                       <option value="">Asunto</option>
-                                       
-                                   </select>
-                               </p>
-                               <p>
-                                   <select name="servicio" id="servicioContacto" class="asunto">
-                                       <option value="">Servicio</option>
-                                   </select>
-                               </p>
-                               <p>
-                                   <textarea name="mensaje" id="mensajeContacto" class="mensaje" rows="7" placeholder="Mensaje"></textarea>
-                               </p>
-                               
-                               <button type="submit" class="button" id="btnEnviar">Enviar</button>
-           
-                           </form>
-                   
-                           <div class="Contactanos-infor">
-                               <p>Centro Empresarial Tribeca</p>
-                               <p>Calle Monte Rosa 240, of, 401</p>
-                               <p>Chacarilla, Surco</p>
-                   
-                               <p>(511)6238782</p>
-                               <p>contacto@mactransport.com.pe</p>
-                           </div>
-                   </div>
-                   
-               </div>
+       <div class="grid-container">
+         <h3 class="Contact-title">Contáctanos</h3>
+         <p class="Contact-subtitle">Somos tu mejor aliado</p>
        </div>
    
-   </div>
+       <section class="Contact-section  grid-x">
+   
+         <div class="Contact-details  c  cell  medium-4"> 
+   
+           <form action="#" class="Contact-form c">
+             <input type="text" class="Contact-form-name" id="nombreContacto" placeholder="Nombre" required>
+             <input type="email" class="Contact-form-email" id="emailContacto" placeholder="Email" required>
+             <textarea class="Contact-form-message" id="mensajeContacto" rows="5" placeholder="Mensaje"></textarea>
+             <button type="submit" class="button text-right" id="btnEnviar">Enviar</button>
+           </form>
+   
+           <div class="Contact-dates c">
+               <div class="Contact-information">
+                 <p class="Contact-description">Centro Empresarial Tribeca Calle Monte Rosa 240, Of. 401 Chacarilla, Surco</p>
+                 <p class="Contact-phone">(511) 623 8782</p>
+                 <p class="Contact-email">contactos@mactransport.com.pe</p>
+               </div>
+             </div>
+   
+         </div>
+   
+         <div class="Contact-maps c  cell  medium-8">
+           <div class="responsive-embed widescreen">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.998346089209!2d-76.99243688495291!3d-12.112265346420733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7ec87c20bd3%3A0x18130d9d290a099e!2sCalle+Monte+Rosa+240%2C+Santiago+de+Surco+15038!5e0!3m2!1ses-419!2spe!4v1531515235151" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+         </div>
+   
+       </section>
+   
+       <section class="miembros  grid-container">
+           <div class="grid-x">
+               <div class="miembros-container  cell  medium-3">
+                       <h2 class="miembros-nombre">Cinthia Calderón</h2>
+                       <p class="miembros-cargo">Operations Chief – Customs Divison</p>
+                       <p class="miembros-anexo1"><a href="tel:+511 623 8782">+511 623 8782 Anexo. 209</a></p>
+                       <p class="miembros-anexo2"><a href="tel:+511 989 086 915">+511 989 086 915</a></p>
+                       <p class="miembros-correo"><a href="mailto:ccalderon@mactransport.com.pe">ccalderon@mactransport.com.pe</a></p>
+                   </div>
+           
+                   <div class="miembros-container  cell  medium-3">
+                       <h2 class="miembros-nombre">Raúl Alvarez</h2>
+                       <p class="miembros-cargo">Operations Manager</p>
+                       <p class="miembros-anexo1"><a href="tel:+511 623 8782">+511 623 8782</a></p>
+                       <p class="miembros-anexo2"><a href="tel:+511 989 087 116">+511 989 087 116</a></p>
+                       <p class="miembros-correo"><a href="mailto:gerencia@mactransport.com.pe">gerencia@mactransport.com.pe</a></p>    
+                   </div>
+           
+                   <div class="miembros-container  cell  medium-3">
+                       <h2 class="miembros-nombre">Mónica Mac Cunn</h2>
+                       <p class="miembros-cargo">Manager Director</p>
+                       <p class="miembros-anexo1"><a href="tel:+511 623 8782">+511 623 8782</a></p>
+                       <p class="miembros-anexo2"><a href="tel:+511 998 111 210">+511 998 111 210</a></p>
+                       <p class="miembros-correo"><a href="mailto:mmaccunn@mactransport.com.pe">mmaccunn@mactransport.com.pe</a></p>
+                   </div>
+           
+                   <div class="miembros-container  cell  medium-3">
+                       <h2 class="miembros-nombre">Fiorella Camones</h2>
+                       <p class="miembros-cargo">Import Operations Chief</p>
+                       <p class="miembros-anexo1"><a href="tel:+511 623 8782">+511 623 8782. 204</a></p>
+                       <p class="miembros-anexo2"><a href="tel:+511 987 069 020">+511 987 069 020</a></p>
+                       <p class="miembros-correo"><a href="mailto:fcamones@mactransport.com.pe">fcamones@mactransport.com.pe</a></p>
+                   </div>
+           </div>
+       </section>
+     </div>
    
 
       <footer class="Footer grid-container full">
